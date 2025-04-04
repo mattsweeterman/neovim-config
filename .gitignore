@@ -1,0 +1,8 @@
+#so many .DS_Store
+.DS_Store
+lua/.DS_Store
+lua/untitled/.DS_StoreD
+
+#undo history
+undodir
+
