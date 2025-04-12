@@ -47,4 +47,17 @@ Make sure you have the following installed:
 - `blink.cmp` – Autocompletion UI (custom)
 
 ---
+
+### v1.1 -- 2025-04-1
+
+#### Added plugins:
+- github-copilot.vim (local.lua)
+- copilot-chat 
+- lualine
+- indent lines
+
+#### updates:
+- moved local theme to fetch inside this repository insead of local hd
+
+---
 # neovim-config

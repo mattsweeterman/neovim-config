@@ -29,7 +29,7 @@ vim.opt.undofile = true
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 vim.opt.ignorecase = true
-vim.opt.smartcase =true
+vim.opt.smartcase = true
 
 -- gotta have those pretty colors
 vim.opt.termguicolors = true
@@ -40,7 +40,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.showcmd = true
 
 vim.opt.list = true
-vim.opt.listchars = "eol:.,tab:>-,trail:~,extends:>,precedes:<"
+-- vim.opt.listchars = "eol:.,tab:>-,trail:~,extends:>,precedes:<"
 
 vim.opt.cursorline = false
 
