@@ -22,7 +22,8 @@ vim.opt.wrap = false
 -- backup settings
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir"
+local home = os.getenv("HOME") or os.getenv("USERPROFILE")
+vim.opt.undodir = home .. "/.config/nvim/undodir"
 vim.opt.undofile = true
 
 -- better search
