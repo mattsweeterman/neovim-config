@@ -15,6 +15,9 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- Set explicit Python 3 host to avoid detection delay
+vim.g.python3_host_prog = "/usr/bin/python3"
+
 -- require lazy package manager
 require("lazy").setup({
 	spec = "untitled.lazy",
