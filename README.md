@@ -11,54 +11,32 @@ Make sure you have the following installed:
 - [luajit](https://luajit.org/luajit.html)
 - plus any [nerd font](https://www.nerdfonts.com), currently using custom monolisa nerdfont
 
----
-
-## Change Log
-
-### v1
-
-#### Core Plugins
-
-- `lazy.nvim` – Plugin manager
-- `nvim-lspconfig` – LSP support
-- `nvim-treesitter` – Syntax highlighting
-
-#### Autocompletion
-
-- `nvim-cmp` – Autocompletion engine
-  - `cmp-buffer`
-  - `cmp-cmdline`
-  - `cmp-nvim-lsp`
-  - `cmp-path`
-  - `cmp-vsnip`
-- `vim-vsnip` – Snippet engine
-- `friendly-snippets`
-
-#### Formatting
-
-- `conform.nvim` – Code formatter
-
-#### Theming
-
-- `dracula_pro` – Local theme
-
-#### Productivity
-
-- `harpoon` – File switcher
-- `blink.cmp` – Autocompletion UI (custom)
+optional language installation: 
+- node.js: `npm install -g neovim`
+- python: `pip install pynvim`
 
 ---
 
-### v1.1 -- 2025-04-1
+## 🧩 Plugin Modules
 
-#### Added plugins:
-- github-copilot.vim (local.lua)
-- copilot-chat 
-- lualine
-- indent lines
-
-#### updates:
-- moved local theme to fetch inside this repository insead of local hd
+- **copilot-chat.lua** – Configuration for CopilotChat.nvim, enabling conversational AI interactions inside Neovim.
+  - (optionally install  lynx `brew install lynx ` used for enhanced fetching)
+- **fugitive.lua** – Git integration using `vim-fugitive`, a powerful wrapper for Git commands.
+- **github-copilot.lua** – Core setup for GitHub Copilot support in Neovim.
+- **harpoon.lua** – Mark and navigate between files quickly using Harpoon.
+- **indent.lua** – Indentation guides and behavior customization.
+- **local.lua** – Personal or machine-specific plugins.
+  - Dracula Pro
+- **lualine.lua** – Statusline configuration using `lualine.nvim`.
+- **telescope-ui-select.lua** – Enhances `vim.ui.select` using Telescope for improved picker UX.
+- **telescope.lua** – Core configuration for `telescope.nvim`, fuzzy finder and more.
+  - (optionally install `brew install fd` for faster/better file searching)
+- **treesitter.lua** – Tree-sitter setup for syntax highlighting, folding, and more.
+- **trouble.lua** – A pretty diagnostics panel using `folke/trouble.nvim`.
+- **undotree.lua** – Visualize and navigate the undo history.
+- **vimbegood.lua** – Plugin for practicing Vim motions and commands interactively.
+- **zenmode.lua** – Distraction-free editing with `folke/zen-mode.nvim`.
 
 ---
+
 # neovim-config
