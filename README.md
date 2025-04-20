@@ -4,11 +4,12 @@
 
 Make sure you have the following installed:
 
-- [Neovim](https://neovim.io/)
+- [neovim](https://neovim.io/)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [pyright](https://github.com/microsoft/pyright)
 - [luarocks](https://luarocks.org/)
 - [luajit](https://luajit.org/luajit.html)
+- plus any [nerd font](https://www.nerdfonts.com), currently using custom monolisa nerdfont
 
 ---
 
