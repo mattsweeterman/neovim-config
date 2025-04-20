@@ -4,11 +4,11 @@
 
 Make sure you have the following installed:
 
-- [neovim](https://neovim.io/)
-- [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [pyright](https://github.com/microsoft/pyright)
-- [luarocks](https://luarocks.org/)
-- [luajit](https://luajit.org/luajit.html)
+- [neovim](https://neovim.io/) | `brew install nvim`
+- [ripgrep](https://github.com/BurntSushi/ripgrep) | `brew install ripgrep`
+- [pyright](https://github.com/microsoft/pyright) | `brew install pyright`
+- [luarocks](https://luarocks.org/) | `brew install luarocks`
+- [luajit](https://luajit.org/luajit.html) | `brew install luajit` -> this is probably installed with luarocks check with `which luajit`
 - plus any [nerd font](https://www.nerdfonts.com), currently using custom monolisa nerdfont
 
 optional language installation: 
